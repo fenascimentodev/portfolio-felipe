@@ -18,8 +18,16 @@ Grandes telas: acima de 1200px */
 
 @media screen and (max-width: 768px) {
 
-        .redes-sociais {
-            font-size: 5px;
+        .logo {
+            font-size: 10px;
+        }
+
+        a > h1 {
+            font-size: 50px;
+        }
+
+        main > p {
+            font-size: 10px;
         }
 
         img {
@@ -27,15 +35,18 @@ Grandes telas: acima de 1200px */
         }
 
         .section > div > h2 {
-            text-align: center;
+            margin-left: 85px;
         }
     
         .section > div > p {
-            text-align: center;
+            
             width: 300px;
+            margin-bottom: 45px;
         }
 
         .section > div > .btn {
-            margin-left: 70px;
+            margin-left: 40px;
+            padding: 10px 40px;
         }
+
     }    
