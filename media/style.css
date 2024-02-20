@@ -8,7 +8,9 @@ Tablet: 768px até 992px
 Grandes telas: acima de 1200px */
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
-    
+    div > p {
+        width: 400px;
+    }
 
 
 }
@@ -16,11 +18,24 @@ Grandes telas: acima de 1200px */
 
 @media screen and (max-width: 768px) {
 
+        .redes-sociais {
+            font-size: 5px;
+        }
+
+        img {
+            display: none;
+        }
+
         .section > div > h2 {
             text-align: center;
         }
     
         .section > div > p {
-            width: 200px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .section > div > .btn {
+            margin-left: 70px;
         }
     }    
