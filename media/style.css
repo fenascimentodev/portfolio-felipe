@@ -7,7 +7,11 @@ Celular: 600px até 768px
 Tablet: 768px até 992px
 Grandes telas: acima de 1200px */
 
-@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 992px) and (orientation: landscape) { /*TABLET*/
+    body {
+        flex-direction: row;
+    }
+
     div > p {
         width: 400px;
     }
@@ -16,18 +20,35 @@ Grandes telas: acima de 1200px */
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (orientation: portrait) { /*CELULAR*/
 
-        .logo {
-            font-size: 10px;
+    body {
+        flex-direction: column;
+    }
+
+    header > nav > ul {
+        gap: 20px;
+    }
+
+        header > .logo {
+        color: #CD3055;
+        font-weight: 600;
+        font-size: 30px;
+        
         }
 
         a > h1 {
             font-size: 50px;
         }
 
-        main > p {
-            font-size: 10px;
+        main > .dev-front {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+        }
+
+        main > .redes-sociais {
+            font-size: 20px;
         }
 
         img {
@@ -47,6 +68,7 @@ Grandes telas: acima de 1200px */
         .section > div > .btn {
             margin-left: 40px;
             padding: 10px 40px;
+            margin-bottom: 20px;
         }
 
     }    
