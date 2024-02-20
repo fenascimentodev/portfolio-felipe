@@ -7,7 +7,9 @@ Celular: 600px até 768px
 Tablet: 768px até 992px
 Grandes telas: acima de 1200px */
 
-@media screen and (max-width: 768px) and (orientation: portrait) { /*CELULAR*/
+/*CELULAR*/
+
+@media screen and (max-width: 768px) { 
 
     header > nav > ul {
         gap: 20px;
@@ -38,30 +40,42 @@ Grandes telas: acima de 1200px */
             display: none;
         }
 
+        .section > div > .textos {
+            margin-top: -100px;
+        }
+
         .section > div > h2 {
             margin-left: 85px;
         }
     
         .section > div > p {
-            
+            font-size: 15px;
             width: 300px;
-            margin-bottom: 45px;
+            margin-bottom: 15px;
         }
 
         .section > div > .btn {
-            margin-left: 40px;
-            padding: 10px 40px;
-            margin-bottom: 20px;
+            margin-left: 70px;
+            padding: 10px 20px;
         }
 
     }    
 
-@media screen and (min-width: 748px) and (max-width: 992px) and (orientation: landscape) { /*TABLET*/
+/*TABLET*/
 
-   main > .section > div > .txt {
-        width: 400px;
+@media screen and (min-width: 768px) and (max-width: 992px) { 
+
+   .section > div > .txt {
+        width: 500px;
    } 
 }
 
+/*DESKTOP*/
+
+@media screen and (min-width: 992px) and (max-width: 1024px) { 
+    .section > div > .txt {
+        width: 600px;
+   } 
+}
 
 
