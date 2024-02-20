@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+---------------------------------------
+Pequenas telas: Até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Grandes telas: acima de 1200px */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: url(imagens/background-luzes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.logo {
+    color: #CD3055;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav > ul > a {
+    color: white;
+    font-size: 20px;
+
+}
+
+nav > ul > a:hover{
+    color: #CD3055;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70px;
+    color: #CD3055;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.redes-sociais > a {
+    color: white;
+}
+
+.redes-sociais > a:hover {
+    color: #CD3055;
+    transition: 0.3s;
+}
+
+.sobre-mim {
+    display: flex;
+    
+}    
+
+.sobre-mim > img {
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-top: 10px solid #CD3055;
+    border-left: 10px solid #CD3055;
+    border-bottom: 10px solid #CD3055;
+    border-radius: 10px;
+}
+
+.sobre-mim > p {
+    margin-top: 130px;
+    margin-left: 60px;
+    font-size: 30px;
+}
