@@ -113,7 +113,7 @@ h1 {
 .section {
     display: flex;
     background-color: rgba(0, 0, 0, 0.399);
-    background-size: 100%;
+    
 }
 
 .textos {

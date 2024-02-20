@@ -7,24 +7,7 @@ Celular: 600px até 768px
 Tablet: 768px até 992px
 Grandes telas: acima de 1200px */
 
-@media screen and (min-width: 768px) and (max-width: 992px) and (orientation: landscape) { /*TABLET*/
-    body {
-        flex-direction: row;
-    }
-
-    div > p {
-        width: 400px;
-    }
-
-
-}
-
-
 @media screen and (max-width: 768px) and (orientation: portrait) { /*CELULAR*/
-
-    body {
-        flex-direction: column;
-    }
 
     header > nav > ul {
         gap: 20px;
@@ -72,3 +55,13 @@ Grandes telas: acima de 1200px */
         }
 
     }    
+
+@media screen and (min-width: 748px) and (max-width: 992px) and (orientation: landscape) { /*TABLET*/
+
+   main > .section > div > .txt {
+        width: 400px;
+   } 
+}
+
+
+
