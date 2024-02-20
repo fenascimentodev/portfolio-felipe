@@ -7,25 +7,32 @@ Celular: 600px até 768px
 Tablet: 768px até 992px
 Grandes telas: acima de 1200px */
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*FONTES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,300&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*BEBAS NEUE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); /*LATO*/
+
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    list-style: none;
+    list-style-type: none;
     text-decoration: none;
 }
 
 body, html {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-image: url(imagens/background-luzes.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: "Bebas Neue", sans-serif;
+}
 
+a {
+    cursor: pointer;
 }
 
 header {
@@ -94,21 +101,50 @@ p {
 
 .sobre-mim {
     display: flex;
-    
+    background-color: rgba(0, 0, 0, 0.733);
 }    
 
-.sobre-mim > img {
+.foto-perfil {
     width: 250px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 47px;
     margin-left: 100px;
     border-top: 10px solid #CD3055;
     border-left: 10px solid #CD3055;
     border-bottom: 10px solid #CD3055;
-    border-radius: 10px;
+    border-radius: 1.5px;
 }
 
-.sobre-mim > p {
-    margin-top: 130px;
-    margin-left: 60px;
-    font-size: 30px;
+.section {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.399);
+}
+
+.textos {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+div > h2 {
+    color: white;
+}
+
+div > p {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 10px 40px;
+    background-color: #CD3055;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
