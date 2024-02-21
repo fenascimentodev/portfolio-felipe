@@ -45,18 +45,18 @@ Grandes telas: acima de 1200px */
         }
 
         .section > div > h2 {
-            margin-left: 125px;
+            margin-left: 100px;
         }
     
         .section > div > p {
             font-size: 15px;
             width: 300px;
-            margin-left: 50px;
+            margin-left: -15px;
             margin-bottom: 15px;
         }
 
         .section > div > .btn {
-            margin-left: 100px;
+            margin-left: 70px;
             padding: 10px 20px;
         }
 
