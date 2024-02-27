@@ -158,7 +158,7 @@ h2 {
     width: 35rem;
 }
 
-.projetos {
+#projetos {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -172,7 +172,7 @@ h2 {
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.666);
 }
 
-.projetos > div > div > img {
+#projetos > div > div > img {
     width: 300px;
 }
 
@@ -183,7 +183,21 @@ h2 {
     justify-content: center;
 }
 
+hr {
+    width: 8rem;
+    margin-left: 5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.666);
+}
+
+.thumb-projetos > div > a {
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.666);
+}
+
 .thumb-landing-page {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     border-top: 0.3rem solid #CD2D57;
     border-right: 0.3rem solid #CD2D57;
     border-left: 0.3rem solid #CD2D57;
@@ -192,12 +206,10 @@ h2 {
     border-radius: 0.2rem;
 }
 
-.thumb-landing-page > a {
-    color: white;
-    background-color: #aa2448;
-}
-
 .thumb-projeto-android {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     border-top: 0.3rem solid #CD2D57;
     border-right: 0.3rem solid #CD2D57;
     border-left: 0.3rem solid #CD2D57;
@@ -206,6 +218,9 @@ h2 {
     border-radius: 0.2rem;
 }
 .thumb-portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     border-top: 0.3rem solid #CD2D57;
     border-right: 0.3rem solid #CD2D57;
     border-left: 0.3rem solid #CD2D57;
@@ -215,5 +230,30 @@ h2 {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     height: 20rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+#link-email {
+    color: white;
+}
+
+#link-email:hover {
+    color: #CD2D57;
+    transition: 0.2s;
+}
+
+#whatsapp {
+    color: white;
+}
+
+#footer-fenascdev {
+    color: #CD2D57;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.666);
 }
