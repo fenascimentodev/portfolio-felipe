@@ -118,8 +118,12 @@ h1 {
     align-items: center;
 }
 
+#sobre-mim {
+    color: #CD2D57;
+}
+
 .foto-perfil {
-    width: 20rem;
+    width: 30rem;
     /*border-top: 0.3rem solid #CD2D57;
     border-left: 0.3rem solid #CD2D57;
     border-bottom: 0.3rem solid #CD2D57;
@@ -231,6 +235,46 @@ hr {
     border-radius: 0.2rem;
 }
 
+.servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 8.5rem;
+}
+
+.servicos > h2 {
+    color: white;
+}
+
+.servicos > p {
+    width: 40rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #CD2D57;
+}
+
+#atendimento {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#atendimento > a:hover {
+    background: #b22248;
+    transition: 0.2s;
+}
+
+#atendimento > a {
+    background: #CD2D57;
+    padding: 1.5rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -249,9 +293,8 @@ footer {
     transition: 0.2s;
 }
 
-#whatsapp {
-    color: white;
-}
+
+
 
 #footer-fenascdev {
     color: #CD2D57;

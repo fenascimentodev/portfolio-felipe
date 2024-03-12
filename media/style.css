@@ -9,9 +9,9 @@ Grandes telas: acima de 1200px */
 
 /*CELULAR*/
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 480px) { 
 
-    header > nav > ul {
+    header > .menu > ul {
         gap: 20px;
     }
 
