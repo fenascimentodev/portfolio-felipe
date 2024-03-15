@@ -9,76 +9,38 @@ Grandes telas: acima de 1200px */
 
 /*CELULAR*/
 
-@media screen and (max-width: 480px) { 
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
-    header > .menu > ul {
-        gap: 20px;
+    body, html {
+        background-color: blue;
+    }
+    header > .logo, .menu {
+        display: none;
+    }
+    
+    img {
+        display: none;
     }
 
-        header > .logo {
-        color: #CD3055;
-        font-weight: 600;
-        font-size: 30px;
-        
-        }
+    main > .hello {
+        font-size: 0.5rem;
+    }
+}
 
-        a > h1 {
-            font-size: 50px;
-        }
+/*IPAD'S E TABLETS*/
 
-        main > .dev-front {
-            font-size: 30px;
-            color: white;
-            text-align: center;
-        }
-
-        main > .redes-sociais {
-            font-size: 20px;
-        }
-
-        img {
-            display: none;
-        }
-
-        main > .section > div > .textos {
-            margin-top: -140;
-        }
-
-        .section > div > h2 {
-            margin-left: 85px;
-        }
+@media (max-width: 768px) {
     
-        .section > div > p {
-            font-size: 15px;
-            width: 300px;
-            margin-top: 15px;
-            margin-left: -15px;
-            margin-bottom: 60px;
-        }
-
-        .section > div > .btn {
-            
-            margin-left: 65px;
-            padding: 10px 20px;
-        }
-
-    }    
-
-/*TABLET*/
-
-@media screen and (min-width: 768px) and (max-width: 992px) { 
-
-   .section > div > .txt {
-        width: 500px;
-   } 
 }
 
-/*DESKTOP*/
+/*TELAS PEQUENAS E LAPTOPS*/
 
-@media screen and (min-width: 992px) and (max-width: 1024px) { 
-    .section > div > .txt {
-        width: 600px;
-   } 
+@media (max-width: 1024px) {
+    
 }
 
+/*DESKTOP E TELAS GRANDES*/
 
+@media (max-width: 1200px) {
+    
+}
